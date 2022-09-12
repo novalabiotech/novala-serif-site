@@ -1,6 +1,6 @@
 backend:
-  name: proxy
-  proxy_url: http://localhost:8081/api/v1
+  name: git-gateway
+  # proxy_url: http://localhost:8081/api/v1
   branch: master # Branch to update (optional; defaults to master)
 media_folder: "images/" # Media files will be stored in the repo under images/uploads
 public_folder: "/"
